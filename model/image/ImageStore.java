@@ -15,7 +15,7 @@ public class ImageStore {
 	public static BufferedImage bird;
 
 	static {
-		airplane = readImage("model/image/plane.jpg", 80, 60);
+		airplane = readImage("model/image/airplane.jpg", 80, 60);
 		car = readImage("model/image/car.jpg", 80, 60);
 		dog = readImage("model/image/dog.png", 70, 50);
 		bird = readImage("model/image/bird.png", 70, 50);
