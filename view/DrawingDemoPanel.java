@@ -70,6 +70,7 @@ public class DrawingDemoPanel {
 		shapeGroup.add(circleButton);
 		shapeGroup.add(recButton);
 		shapeGroup.add(triButton);
+		circleButton.setSelected(true);
 
 		colorPanel.setBorder(BorderFactory.createTitledBorder("Color"));
 		ButtonGroup colorGroup = new ButtonGroup();
@@ -80,6 +81,7 @@ public class DrawingDemoPanel {
 		colorGroup.add(whiteColor);
 		colorGroup.add(yellowColor);
 		colorGroup.add(redColor);
+		whiteColor.setSelected(true);
 
 		sizePanel.setBorder(BorderFactory.createTitledBorder("Size"));
 		ButtonGroup sizeGroup = new ButtonGroup();
@@ -89,6 +91,7 @@ public class DrawingDemoPanel {
 		sizeGroup.add(smallSize);
 		sizeGroup.add(medSize);
 		sizeGroup.add(largeSize);
+		smallSize.setSelected(true);
 
 		buttonPanel.setBorder(BorderFactory.createTitledBorder("Actions"));
 		buttonPanel.add(sortXButton);
