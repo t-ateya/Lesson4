@@ -57,18 +57,18 @@ public class IDemoPanel {
 
 	private void populatePicture(){
 		ArrayList<IRender> pics = canvas.getPictures();
-		Car c1 = new Car(50, 50, "Ford", 9000, "SUV");
-		pics.add(c1);
-		c1.setImage(ImageStore.car);
-		Airplane p1 = new Airplane(150, 50, "Boeing", 1200000, 350);
-		pics.add(p1);
-		p1.setImage(ImageStore.airplane);
-		Bird b1 = new Bird(150, 150, "African Bird", 5, 10);
-		pics.add(b1);
-		b1.setImage(ImageStore.bird);
-		Dog d1 = new Dog(50, 150, "African Dog", 3, "white");
-		pics.add(d1);
-		d1.setImage(ImageStore.dog);
+		Car c = new Car(50, 50, "Ford", 9000, "SUV");
+		pics.add(c);
+		c.setImage(ImageStore.car);
+		Airplane p = new Airplane(150, 50, "Boeing", 1200000, 350);
+		pics.add(p);
+		p.setImage(ImageStore.airplane);
+		Bird b = new Bird(150, 150, "Eagle", 5, 10);
+		pics.add(b);
+		b.setImage(ImageStore.bird);
+		Dog d = new Dog(50, 150, "Bulldog", 3, "white");
+		pics.add(d);
+		d.setImage(ImageStore.dog);
 
 
 
